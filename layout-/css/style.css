@@ -1,0 +1,90 @@
+.rozha-one {
+  font-family: 'Rozha One', serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.blue {
+  color: #337ab7;
+}
+ 
+.grey {
+  color: #8a8484;
+}
+
+.lite-grey {
+  color: #bfbcbc;
+}
+/*//////////HEADER//////////*/
+header {
+  height: 90vh;
+  background-image: url('../img/header.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#headers-wrapper {
+  margin-top: 19rem;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+}
+
+header h2 {
+  margin-top: -6.9rem;
+  font-size: 1rem;  
+}
+/*//////////HEADER END//////////*/
+
+/*//////////QUOTE//////////*/
+#quote-wrapper {
+  margin: 0 auto;
+  width: 95.7%;
+}
+
+#quote h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+#quote h3 {
+  font-size: .8rem;
+  text-align: center;
+}
+/*//////////QUOTE END//////////*/
+
+.article-wrapper {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.article-wrapper p {
+  font-size: 11px;
+  /* text-align: center; */
+ }
+
+.article-wrapper a {
+  font-size: 7px;
+  /* text-align: center; */
+}
+
+#video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
