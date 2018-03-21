@@ -184,9 +184,10 @@ p.cost {
     border: none;
     background-color: #ececec;
     height: 3rem;
-    width: 89%;
+    width: 88%;
 }
 /*//////////JOIN END//////////*/
+
 /* //////////CONTACTS///////// */
 
 #contacts img {
@@ -194,23 +195,12 @@ p.cost {
   margin-bottom: 1.5rem;
 }
 
-.contacts #our_camp p {
-  font-size: 1rem;
+#contacts .wrapper {
+  width: 85%;
+  margin: 0 auto;
 }
 
-#contacts h3 {
-  line-height: 0.6;
-  border: none;
+#contacts .wrapper p {
   text-align: left;
-  
-}
-
-
-#contacts a {
-  font-size: 1rem;
-}
-
-.contacts #contacts1 p {
-  font-size: 24px;
-  line-height: 0.9;
+  font-size: 2.1rem;
 }
