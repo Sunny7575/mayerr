@@ -268,15 +268,19 @@ p.cost {
     text-align: left;
     margin-left: 2rem;
   }
+  
+  #first-article img {
+      width: 50%;
+  }
 
   #second-article { 
     margin-bottom: 10rem;
   }
 
   #second-article img {  
-    position: absolute;
+/*     position: absolute;
     left: 34rem;
-    margin: 0 4rem;
+    margin: 0 4rem; */
   }
 
   #second-article p {
@@ -321,8 +325,9 @@ p.cost {
   
  #video iframe { 
     position: absolute;
-    left: 30rem;
-    bottom: 16rem;
+    height: 30.5rem;
+    left: 43rem;
+    bottom: 0rem;
   }   
 
   .text-center#shop {
@@ -359,4 +364,11 @@ p.cost {
   87.5% {height: 140px}
   100% {height: 160px}
  }
+  
+  /*///////SECOND-ARTICLE /////////*/
+  #s-a-img {
+    float: right;
+    
+  }
+  /*///////SECOND-ARTICLE END/////////*/
 }
