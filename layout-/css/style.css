@@ -121,17 +121,22 @@ padding: 0 2rem;
 #second-article p {
   font-size: 1.2rem;
   padding: 0 2rem;
+  text-align: left;
 }
 
-#third-article img {
-  width: 80%;
-  margin-bottom: 2rem;
+#third-article .wrapper {
+  display: block;
+  height: 65%;
+  width: 65%;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
-#third-article p {
-  font-size: 1.2rem;
-  padding: 0 2rem;
+#third-article .wrapper img {
+  height: 17rem;
+  margin-left: -3rem;
 }
+
 /*//////////ARTICLE END//////////*/
 
 /*//////////VIDEO//////////*/
@@ -196,11 +201,162 @@ p.cost {
 }
 
 #contacts .wrapper {
-  width: 85%;
-  margin: 0 auto;
+  display: block;
+  width: 80%;
+  margin: 1.5rem auto;
 }
 
 #contacts .wrapper p {
   text-align: left;
   font-size: 2.1rem;
+}
+
+/*//////////CONTACTS AND////////*/
+
+@media (min-width: 768px) {
+  header {
+      height: 75vh;
+      background-position: 100% 50%;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      animation-name: transparency;
+      animation-duration: 8s;
+  }
+  
+  @keyframes transparency {
+    from {opacity:0;}
+    to {opacity:1;}
+  }
+  
+  header h1 {
+    color: #000;
+    text-align: left;
+    animation-name: left-transparent;
+    animation-duration: 3s;
+  }
+  
+  @keyframes left-transparent {
+    from {
+      margin-left: -1000px;
+      opacity: 0;
+    }
+    to {
+      margin-left: 0;
+      opacity: 1;
+    }
+  }
+  
+  header h2 {
+    animation-name: from-top;
+    animation-duration: 2s;
+  }
+  
+  @keyframes from-top {
+    from {
+      margin-top: -1000px;
+    }
+    to {
+      margin-top: -6.9rem;
+    }
+  }
+
+  #first-article p  {   
+    text-align: left;
+  }
+
+  #first-article a {
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+  #second-article { 
+    margin-bottom: 10rem;
+  }
+
+  #second-article img {  
+    position: absolute;
+    left: 34rem;
+    margin: 0 4rem;
+  }
+
+  #second-article p {
+    padding: 0 0;
+  } 
+
+  .text-center { 
+   text-align: left; 
+}
+
+  #third-article {  
+    height: 27rem;
+    overflow: hidden;
+   } 
+
+  #third-article p {
+     font-size: 1.2rem;
+     text-align: left;
+   }
+   
+   #third-article .wrapper { 
+    width: 100%;
+    margin-bottom: 2rem;
+   } 
+
+  #third-article .wrapper img {
+    height: 20rem;
+    margin-left: 0;
+  }
+
+  #third-article .wrapper2 {
+    width: 80%; 
+    position: absolute;
+    left: 40rem;
+    bottom: 10rem;
+    margin-right: 2rem;
+ }  
+
+  #video {
+    position: relative;
+  }
+  
+ #video iframe { 
+    position: absolute;
+    left: 30rem;
+    bottom: 16rem;
+  }   
+
+  .text-center#shop {
+    text-align: center;
+  }
+
+  #join h2,p {
+    text-align: center;
+  }
+ 
+  #our_camp p {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+#square {
+  width: 50%;
+  height: 160px;
+  border-right: thin solid #337ab7;
+  animation-name: drop;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+ }
+
+ @keyframes drop { 
+  0% {height: 0px}
+  12.5% {height: 20px}
+  25% {height: 40px}
+  37.5% {height: 60px}
+  50% {height: 80px}
+  62.5% {height: 100px}
+  75% {height: 120px}
+  87.5% {height: 140px}
+  100% {height: 160px}
+ }
 }
